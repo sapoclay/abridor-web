@@ -150,6 +150,8 @@ subprocess.Popen([
 
 ### Navegadores Soportados
 
+![navegadores-detectables](https://github.com/user-attachments/assets/bf48368b-f225-419a-b1ea-50d094bd871f)
+
 | Sistema | Navegador | Detección | Estado |
 |---------|-----------|-----------|--------|
 | Windows | Google Chrome | ✅ Registro + Rutas | Completo |
