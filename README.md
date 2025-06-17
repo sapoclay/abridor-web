@@ -612,22 +612,6 @@ Fixes #numero_issue
 - **GNU gettext** - Sistema de internacionalización
 
 ---
-
-## 📊 Estadísticas del Proyecto
-
-![GitHub Release](https://img.shields.io/github/v/release/sapoclay/abridor-web)
-![GitHub Downloads](https://img.shields.io/github/downloads/sapoclay/abridor-web/total)
-![GitHub Issues](https://img.shields.io/github/issues/sapoclay/abridor-web)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/sapoclay/abridor-web)
-
-**¿Te resulta útil este plugin?** ⭐ ¡Dale una estrella al repositorio para apoyar el desarrollo!
-
-**¿Encontraste un bug?** 🐛 [Repórtalo aquí](https://github.com/sapoclay/abridor-web/issues/new)
-
-**¿Tienes una idea genial?** 💡 [Compártela con nosotros](https://github.com/sapoclay/abridor-web/discussions)
-
----
-
 <div align="center">
 
 **Abridor Web** - Llevando la web a tu experiencia Kodi - **entreunosyceros.net**
