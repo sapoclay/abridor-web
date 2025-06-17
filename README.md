@@ -65,22 +65,6 @@ El plugin **Abridor Web** actúa como un puente entre Kodi y los navegadores web
 
 ## 🛠️ ¿Cómo funciona?
 
-### Arquitectura del Plugin
-
-El plugin está diseñado con una arquitectura modular que separa las responsabilidades en diferentes componentes:
-
-```
-📦 Abridor Web
-├── 🎯 default.py           # Punto de entrada y coordinador principal
-├── 🔍 browser_detector.py  # Motor de detección de navegadores
-├── 📊 url_manager.py       # Sistema de gestión de URLs
-├── 📋 history_manager.py   # Gestión de historial de navegación
-├── 🔖 bookmark_manager.py  # Importación de marcadores
-├── 💾 backup.py           # Sistema de respaldos
-├── 🔄 restore.py          # Sistema de restauración
-└── 🛠️ utils.py           # Utilidades y funciones comunes
-```
-
 ### Flujo de funcionamiento
 
 #### 1. **Detección de navegadores**
