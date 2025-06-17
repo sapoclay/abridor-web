@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="30100">
+        <setting label="30101" type="bool" id="auto_detect_browsers" default="true"/>
+        <setting label="30102" type="bool" id="show_browser_descriptions" default="true"/>
+        <setting label="30103" type="bool" id="show_notifications" default="true"/>
+        <setting label="30104" type="select" id="default_browser" default="0" values="Auto|Chrome|Firefox|Edge|Opera|Other"/>
+        <setting label="30105" type="bool" id="remember_last_browser" default="true"/>
+    </category>
+    
+    <category label="30110">
+        <setting label="30111" type="bool" id="enable_url_history" default="true"/>
+        <setting label="30112" type="number" id="max_saved_urls" default="50"/>
+        <setting label="30113" type="bool" id="auto_backup_urls" default="false"/>
+        <setting label="30114" type="select" id="backup_frequency" default="0" values="Daily|Weekly|Monthly" enable="eq(-1,true)"/>
+        <setting label="30115" type="action" id="backup_now" action="RunPlugin(plugin://plugin.navegador.kodi/?action=backup_urls)"/>
+        <setting label="30116" type="action" id="restore_urls" action="RunPlugin(plugin://plugin.navegador.kodi/?action=restore_urls)"/>
+    </category>
+    
+    <category label="30120">
+        <setting label="30121" type="bool" id="enable_debug_logging" default="false"/>
+        <setting label="30122" type="select" id="log_level" default="1" values="Error|Warning|Info|Debug" enable="eq(-1,true)"/>
+        <setting label="30123" type="bool" id="show_system_info" default="false"/>
+        <setting label="30124" type="action" id="clear_cache" action="RunPlugin(plugin://plugin.navegador.kodi/?action=clear_cache)"/>
+        <setting label="30125" type="action" id="reset_settings" action="RunPlugin(plugin://plugin.navegador.kodi/?action=reset_settings)"/>
+    </category>
+    
+    <category label="30130">
+        <setting label="30131" type="bool" id="enable_custom_browsers" default="false"/>
+        <setting label="30132" type="text" id="custom_browser_name" default="" enable="eq(-1,true)"/>
+        <setting label="30133" type="file" id="custom_browser_path" default="" enable="eq(-2,true)"/>
+        <setting label="30134" type="text" id="custom_browser_args" default="" enable="eq(-3,true)"/>
+        <setting label="30135" type="action" id="test_custom_browser" action="RunPlugin(plugin://plugin.navegador.kodi/?action=test_custom_browser)" enable="eq(-4,true)"/>
+    </category>
+    
+    <category label="30140">
+        <setting label="30141" type="bool" id="enable_url_validation" default="true"/>
+        <setting label="30142" type="bool" id="auto_add_http" default="true"/>
+        <setting label="30143" type="bool" id="warn_external_urls" default="true"/>
+        <setting label="30144" type="select" id="url_open_mode" default="0" values="New Window|New Tab|Current Window"/>
+        <setting label="30145" type="bool" id="enable_incognito_mode" default="false"/>
+    </category>
+    
+    <category label="30150">
+        <setting label="30151" type="bool" id="enable_history" default="true"/>
+        <setting label="30152" type="number" id="max_history_entries" default="100"/>
+        <setting label="30153" type="number" id="history_retention_days" default="30"/>
+        <setting label="30154" type="bool" id="auto_cleanup_history" default="true"/>
+        <setting label="30155" type="action" id="clear_history_now" action="RunPlugin(plugin://plugin.navegador.kodi/?action=clear_history)"/>
+        <setting label="30156" type="action" id="export_history" action="RunPlugin(plugin://plugin.navegador.kodi/?action=export_history)"/>
+    </category>
+    
+    <category label="30160">
+        <setting label="30161" type="bool" id="enable_bookmark_import" default="true"/>
+        <setting label="30162" type="bool" id="import_chrome_bookmarks" default="true" enable="eq(-1,true)"/>
+        <setting label="30163" type="bool" id="import_firefox_bookmarks" default="true" enable="eq(-2,true)"/>
+        <setting label="30164" type="action" id="import_bookmarks_now" action="RunPlugin(plugin://plugin.navegador.kodi/?action=import_bookmarks)"/>
+        <setting label="30165" type="number" id="max_imported_bookmarks" default="200"/>
+    </category>
+
+</settings>
