@@ -5,7 +5,9 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg)](https://github.com/sapoclay/abridor-web)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
+<div align="center">
 ![abridor-web](https://github.com/user-attachments/assets/27e89e1e-6fdf-4024-af97-e317cc34ed58)
+</div>
 
 **Abridor Web** es un plugin para Kodi que permite detectar automáticamente navegadores web instalados en el sistema y abrirlos directamente desde la interfaz de Kodi. El plugin también incluye funcionalidades avanzadas de gestión de URLs, historial de navegación e importación de marcadores.
 
